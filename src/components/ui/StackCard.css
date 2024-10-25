@@ -1,0 +1,43 @@
+.stack-wrapper {
+    position: relative;
+    margin-top: 20px;  /* Adjust spacing above the card stack */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;               
+    height: auto;             
+  }
+  
+  .stack {
+    position: absolute;  /* This makes cards stack on top of each other */
+    top: 0;
+    width: 200px;
+    height: 250px;
+    will-change: transform;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    touch-action: none;
+  }
+  
+  .stack > div {
+    background-size: auto 85%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 45vh;
+    max-width: 200px;
+    height: 85vh;
+    max-height: 250px;
+    will-change: transform;
+    user-select: none;
+    border-radius: 10px;
+  }
+  
+  .stack:hover {
+    cursor: grab;
+  }
+  
+  .stack:active {
+    cursor: grabbing;
+  }
+  
