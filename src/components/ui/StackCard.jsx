@@ -5,12 +5,12 @@ import { useDrag } from 'react-use-gesture';
 import './StackCard.css';
 
 const cards = [
-    './img5.jpg',
-    './img6.jpg',
-    './img4.jpg',
-    './img3.jpg',
-    './img1.jpg',
-    './img2.jpg'
+    './img5.png',
+    './img6.png',
+    './img4.png',
+    './img3.png',
+    './img1.png',
+    './img2.png'
 ];
 
 const to = (i) => ({
