@@ -89,7 +89,7 @@ const Header = memo(({ content: { title, subtitle } }) => (
     >
         {/* Floating Emojis */}
         <motion.div
-            className="absolute left-[-15px] top-[-20px] font-bold text-6xl"
+            className="absolute left-[-20px] top-[-20px] font-bold text-6xl"
             variants={floatingEmoji1}
             initial="initial"
             animate="animate"
@@ -97,12 +97,12 @@ const Header = memo(({ content: { title, subtitle } }) => (
             🎉
         </motion.div>
         <motion.div
-            className="absolute right-[25px] top-[10px] font-bold text-4xl"
+            className="absolute right-[25px] top-[10px] font-bold text-5xl"
             variants={floatingEmoji2}
             initial="initial"
             animate="animate"
         >
-            🎂
+            🎈
         </motion.div>
         <motion.div
             className="absolute left-[35px] bottom-[-80px] font-bold text-3xl"
@@ -121,12 +121,12 @@ const Header = memo(({ content: { title, subtitle } }) => (
             ✨
         </motion.div>
         <motion.div
-            className="absolute right-[40px] bottom-[-30px] font-bold text-8xl"
+            className="absolute right-[40px] bottom-[-20px] font-bold text-7xl"
             variants={floatingEmoji4}
             initial="initial"
             animate="animate"
         >
-            🎈
+            🎂
         </motion.div>
 
         {/* Header Content */}
