@@ -40,9 +40,9 @@ function App() {
         if (enteredPassword === '0702') {
             setIsAuthenticated(true);
             dropHearts()
-            setTimeout(() => {
-                videoRef.current?.scrollIntoView({ behavior: "smooth" });
-            }, 300); 
+            // setTimeout(() => {
+            //     videoRef.current?.scrollIntoView({ behavior: "smooth" });
+            // }, 300); 
  
             
         } else {
