@@ -352,7 +352,7 @@ function App() {
                             <video 
                                 ref={videoRef}
                                 
-                                key={isAuthenticated} 
+                                // key={isAuthenticated} 
                                 autoPlay 
                                 muted 
                                 loop
